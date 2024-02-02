@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;700&display=swap');
+*{
+    box-sizing: border-box;
+    
+    padding: 0%;
+    margin: 0%
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Figtree', sans-serif;
+    background-color: hsl(47, 88%, 63%);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainBox{
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border: 1.6px solid black;
+    border-radius: 15px;
+    box-shadow: 9px 9px 0px -2px black;
+    
+}
+.mainBox:hover{
+    box-shadow: 12px 12px 0px -2px black;
+    transition: 0.2s ease-in-out;
+}
+.main_image{
+    width: 250px;
+    border-radius: 15px;
+    margin-left: 22px;
+    margin-top: 20px;
+}
+.learning_box{
+
+    width: 100px;
+    height: 35px;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    margin-left: 22px;
+    margin-top: 10px;
+}
+.btn{
+    text-align: center;
+    line-height: 35px;
+    font-weight: bolder;
+}
+.pub{
+    margin-left: 22px;
+    margin-top: 10px; 
+}
+.html{
+    margin-left: 22px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.html:hover{
+    color: hsl(47, 88%, 63%);
+    transition: 0.1s ease-in-out;
+}
+.these{
+    margin-left: 22px;
+    margin-top: 10px;
+    color: gray;
+    font-weight: 400;
+}
+.profile{
+    width: 35px;
+    margin-left: 22px;
+    margin-top: 10px;
+}
+.name{
+    margin-left: 70px;
+    margin-top: -28px;
+    font-weight: 700;
+    font-weight: bolder;
+}
